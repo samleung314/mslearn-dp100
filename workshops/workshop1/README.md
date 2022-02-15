@@ -3,7 +3,7 @@
 
 
 ## 1. Getting started 
-    
+ 
 ### 1.A 
 * [Getting started with notebooks](../code/Get%20Started%20with%20Notebooks.ipynb)
 
