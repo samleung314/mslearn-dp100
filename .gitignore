@@ -2,3 +2,4 @@
 workshops/workshop1/code/answers/config.json
 workshops/workshop1/code/config.json
 *.amltmp
+*.amlignore
