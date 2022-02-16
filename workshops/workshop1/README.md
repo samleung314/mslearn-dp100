@@ -11,10 +11,19 @@ The workshop will conclude with an example of the AML data drift feature and how
 
 ![ADF pipelines for training and scoring that call AML pipelines for each step of the process](code\img\readmearchitecture.png)
 
-<!--
-Prerequisites
--Service Principal (AML->ADLS)
--->
+## Use Case
+
+The Labs are based on the [Diabetes Dataset](https://www.kaggle.com/mathchi/diabetes-data-set). The lab exercises will have learns build regression models to predict the onset of diabetes in patients.
+
+The lab TODOs will not focus on solving the use case, but rather on learning the AML service. The diabetes use case was chosen as a simple well-known scenario in an effort to prevent learns from getting distracted with solving the use case.
+
+## Prerequisites
+Before working on the lab modules, there is some environment setup to consider. Below is a list of prerequsite items that typically involve a cloud administrators help.
+
+- An AML workspace with permission to create compute.
+- Azure Data Factory with line-of-sight to AML workspace.
+- Creation of a Service Principal for AML to Azure Data lake (ADLS) access.
+- 
 
 ## Lab Modules
 The workshop will consists of four modules that include a varying number of exercises. Completing the modules in order is design to build an understanding of the AML workspace. The following modules focus on building pipelines to train, deploy and score ML models. This is design to leave learners with an understanding of the basic pattern for productionalizing ML models with AML + ADF.
