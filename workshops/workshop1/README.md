@@ -1,6 +1,8 @@
 # Azure Machine Learning Workshop 1
 
-
+Prerequisites
+-Service Principal (AML->ADLS)
+-
 
 ## 1. Getting started 
  
