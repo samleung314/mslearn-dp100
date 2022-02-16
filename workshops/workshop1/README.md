@@ -9,7 +9,7 @@ By the end of this workshop learners will build two ADF pipelines that orchestra
 
 The workshop will conclude with an example of the AML data drift feature and how it can be used to determine when the ADF training pipeline should run for retraining the ML model.
 
-![ADF pipelines for training and scoring that call AML pipelines for each step of the process](code\img\readmearchitecture.png)
+![ADF pipelines for training and scoring that call AML pipelines for each step of the process](./code/img/readmearchitecture.png)
 
 ## Use Case
 
