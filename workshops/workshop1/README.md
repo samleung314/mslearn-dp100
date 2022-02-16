@@ -1,9 +1,9 @@
 # Azure Machine Learning Workshop 1
 
 ## Introduction
-This Azure Machine Learning (AML) workshop is based on the [DP100 MSLearn](https://github.com/MicrosoftLearning/mslearn-dp100) lab files. The lab has been tailored to introduce excerises for the learns that require them to referece MS Docs in order to complete TODO's. These TODO's are meant to focus on core componetns of the AML workspace and Python SDK. 
+This Azure Machine Learning (AML) workshop is based on the [DP100 MSLearn](https://github.com/MicrosoftLearning/mslearn-dp100) lab files. The lab has been tailored to introduce exercises for the learns that require them to reference MS Docs in order to complete TODO's. These TODO's are meant to focus on core components of the AML workspace and Python SDK. 
 
-I addition, this workshop introduces exersices for data egineering pipelines in Azure Data Factory (ADF) that are used for training and scoring pipelines. Scoring, monitoring, and retraining ML models in production are core activities of [MLOps](https://en.wikipedia.org/wiki/MLOps). This workshop attempts to simplify this rather complex story by focusing on patterns that rely more heavly on Azure Data Factory for orchastration. The presence of DevOps CI/CD is currently ommitted from this workshop, with plans of introducing it in the future to support the relase of artificats between environemnts (i.e. dev, stage, prod).
+I addition, this workshop introduces exercises for data engineering pipelines in Azure Data Factory (ADF) that are used for training and scoring pipelines. Scoring, monitoring, and retraining ML models in production are core activities of [MLOps](https://en.wikipedia.org/wiki/MLOps). This workshop attempts to simplify this rather complex story by focusing on patterns that rely more heavily on Azure Data Factory for orchestration. The presence of DevOps CI/CD is currently omitted from this workshop, with plans of introducing it in the future to support the release of artifacts between environments (i.e. dev, stage, prod).
 
 By the end of this workshop learners will build two ADF pipelines that orchestrate a number of AML pipelines. The image below helps visualize the scoring and training pipelines that the AML pipelines steps that they will orchestrate.
 
@@ -17,10 +17,10 @@ Prerequisites
 -->
 
 ## Lab Modules
-The workshop will consists of four modules that include a varying number of exersices. Completing the modules in order is design to build an understanding of the AML workspace. The following modules focus on building pipelines to train, deploy and score ML models. This is design to leave learners with an understanding of the basic pattern for operationalizing ML models with AML + ADF.
+The workshop will consists of four modules that include a varying number of exercises. Completing the modules in order is design to build an understanding of the AML workspace. The following modules focus on building pipelines to train, deploy and score ML models. This is design to leave learners with an understanding of the basic pattern for productionalizing ML models with AML + ADF.
 
 ### Module 1: Getting started 
- 
+
 1. [Getting started with notebooks](../code/Get%20Started%20with%20Notebooks.ipynb)
 
 1. [Running Experiments]()
@@ -29,10 +29,9 @@ The workshop will consists of four modules that include a varying number of exer
 
 1. [Train & Register Models]()
 
-### Module 2: Visual Designer Pipeline
+### Module 2: Visual Designer
 
 1. [Visual Designer Data Prep Pipeline]()
-
 
 ### Module 3: Inferencing/Scoring
 
@@ -49,4 +48,3 @@ The workshop will consists of four modules that include a varying number of exer
 1. [Data Factory Scoring Pipeline]()
 
 1. [Data Drift Monitor]()
-
