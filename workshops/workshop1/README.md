@@ -38,15 +38,15 @@ The workshop will consists of four modules that include a varying number of exer
 
 1. [Train & Register Models]()
 
-### Module 2: Visual Designer
-
-1. [Visual Designer Data Prep Pipeline]()
-
-### Module 3: Inferencing/Scoring
+### Module 2: Inferencing/Scoring
 
 1. [Create Real-time Inferencing Service]()
 
 1. [Batch Inference Pipeline]()
+
+### Module 3: Visual Designer
+
+1. [Visual Designer Data Prep Pipeline]()
 
 ### Module 4: Retraining Pattern
 
