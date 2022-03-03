@@ -20,10 +20,25 @@ The lab TODOs will not focus on solving the use case, but rather on learning the
 ## Prerequisites
 Before working on the lab modules, there is some environment setup to consider. Below is a list of prerequsite items that typically involve a cloud administrators help.
 
-- An AML workspace with permission to create compute.
+- Access to an AML workspace with permission to create compute and register datastores.
+- Permission to turn on MSI for AML Compute Clusters.
+- Creation of a Service Principal for AML workspace access to Azure Data Lake (ADLS)
+- Full access to an ADLS container (RBAC - Storage Blob Data Contributor) or directory (POSIX - rwx)
 - Azure Data Factory with line-of-sight to AML workspace.
-- Creation of a Service Principal for AML to Azure Data lake (ADLS) access.
-- 
+- Execute Python Imports script on environment where notebooks will be executed. Install/Update any missing libraries.
+
+### Permission Prerequisites
+These operations require Owner RBAC role on the AML workspace and ADLS.
+
+- Assign AML workspace Read RBAC role to Compute CLuster MSI.
+- Assign AML workspace Contributor RBAC role to Azure Data Factory MSI (See Module 4 - Exercise 1).
+- Assign Service Principal created for ADLS access RBAC Storage Blob Data Contributor to ADLS.
+
+### Data Lake Prep
+- Create a new container for the workshop.
+- Create the following folder structure in the new container replacing <user-id> with your lab id.
+![Data Lake folder structure for lab.](./code/img/datalakelabfolders.png)
+
 
 ## Lab Modules
 The workshop will consists of four modules that include a varying number of exercises. Completing the modules in order is design to build an understanding of the AML workspace. The following modules focus on building pipelines to train, deploy and score ML models. This is design to leave learners with an understanding of the basic pattern for productionalizing ML models with AML + ADF.
