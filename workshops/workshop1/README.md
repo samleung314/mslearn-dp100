@@ -17,6 +17,9 @@ The Labs are based on the [Diabetes Dataset](https://www.kaggle.com/mathchi/diab
 
 The lab TODOs will not focus on solving the use case, but rather on learning the AML workspace. The diabetes use case was chosen as a simple well-known scenario in an effort to prevent learns from getting distracted with solving the use case.
 
+#### Instructors
+The set of notebooks in the /answers folder contain the answers to the lab TODOs.
+
 ## Prerequisites
 Before working on the lab modules, there is some environment setup to consider. Below is a list of prerequisite items that typically involve a cloud administrators help.
 
@@ -46,23 +49,23 @@ The workshop will consists of four modules that include a varying number of exer
 
 ### Module 1: Getting started 
 
-1. [Getting started with notebooks](../code/Get%20Started%20with%20Notebooks.ipynb)
+1. [Getting started with notebooks](./code/Get%20Started%20with%20Notebooks.ipynb)
 
-1. [Running Experiments]()
+1. [Running Experiments](./code/Run%20Experiments.ipynb)
 
-1. [Work with Data]()
+1. [Work with Data](./code/Work%20with%20Data.ipynb)
 
-1. [Train & Register Models]()
+1. [Train & Register Models](./code/Train%20Models.ipynb)
 
 ### Module 2: Inferencing/Scoring
 
-1. [Create Real-time Inferencing Service]()
+1. [Create Real-time Inferencing Service](./code/Create%20a%20Real-time%20Inferencing%20Service.ipynb)
 
-1. [Batch Inference Pipeline]()
+1. [Create Batch Inference Pipeline](./code/Create%20a%20Batch%20Inferencing%20Service.ipynb)
 
 ### Module 3: Visual Designer
 
-1. [Visual Designer Data Prep Pipeline]()
+1. [Visual Designer Data Prep Pipeline](./code/Visual%20Designer%20Data%20Prep%20Pipeline.ipynb)
 
 ### Module 4: Retraining Pattern
 
