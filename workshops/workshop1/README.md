@@ -30,6 +30,7 @@ Before working on the lab modules, there is some environment setup to consider. 
 - Azure Data Factory with line-of-sight to AML workspace.
 - Execute Python Imports script on environment where notebooks will be executed. Install/Update any missing libraries.
 - Clone to workshop repository https://github.com/samleung314/mslearn-dp100.git in the environment that you will run the notebooks.
+- Create two CPU sku Compute Clusters in the AML workspace (dev-cluster, prod-cluster). The VM SKU should stay within the AML workspace quota limits and the clusters should scale to at least 2 nodes.
 
 ### Permission Prerequisites
 These operations require Owner RBAC role on the AML workspace and ADLS.
