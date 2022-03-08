@@ -71,7 +71,7 @@ The workshop will consists of four modules that include a varying number of exer
 
 1. [Visual Designer Scoring Pipeline](./code/Visual%20Designer%20Scoring%20Pipeline.ipynb)
 
-1. [Data Factory Training Pipeline]() 
+1. [Notebook Retraining Pipeline](./code/Notebook%20Retraining%20Pipeline.ipynb) 
 
 1. [Data Drift Monitor]()
 
