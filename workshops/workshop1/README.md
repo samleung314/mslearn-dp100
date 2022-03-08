@@ -37,7 +37,7 @@ Before working on the lab modules, there is some environment setup to consider. 
 These operations require Owner RBAC role on the AML workspace and ADLS.
 
 - Assign Compute Cluster MSI the Read and AzureML Data Scientist RBAC permission to the AML workspace.
-- Assign AML workspace Contributor RBAC role to Azure Data Factory MSI (See Module 4 - Connecting Azure Data Factory).
+- Assign AML workspace Contributor RBAC role to Azure Data Factory MSI (See Module 3 - Connecting Azure Data Factory).
 - Assign Service Principal created for ADLS access RBAC Storage Blob Data Contributor to ADLS.
 
 ### Data Lake Prep
@@ -65,16 +65,17 @@ The workshop will consists of four modules that include a varying number of exer
 
 1. [Create Batch Inference Pipeline](./code/Create%20a%20Batch%20Inferencing%20Service.ipynb)
 
-### Module 3: Visual Designer
+### Module 3: Scoring and Retraining Pattern
 
 1. [Visual Designer Data Prep Pipeline](./code/Visual%20Designer%20Data%20Prep%20Pipeline.ipynb)
 
-### Module 4: Retraining Pattern
-
-1. [Connecting Azure Data Factory]()
+1. [Visual Designer Scoring Pipeline](./code/Visual%20Designer%20Scoring%20Pipeline.ipynb)
 
 1. [Data Factory Training Pipeline]() 
 
-1. [Data Factory Scoring Pipeline]()
-
 1. [Data Drift Monitor]()
+
+1. [Connecting Azure Data Factory]()
+
+1. [Azure Data Factory Orchestration Pipelines]()
+
