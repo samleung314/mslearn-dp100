@@ -73,9 +73,9 @@ The workshop will consists of four modules that include a varying number of exer
 
 1. [Notebook Retraining Pipeline](./code/Notebook%20Retraining%20Pipeline.ipynb) 
 
-1. [Data Drift Monitor]()
+1. [Data Drift Monitor](./code/Data%20Drift%20Monitor.ipynb)
 
 1. [Connecting Azure Data Factory]()
 
-1. [Azure Data Factory Orchestration Pipelines]()
+1. ~~[Azure Data Factory Orchestration Pipelines]()~~
 
